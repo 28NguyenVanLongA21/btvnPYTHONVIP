@@ -1,0 +1,10 @@
+<Company>
+    <Director>Nguyễn Văn A</Director>
+    <Address>
+        <Street>123 Đường ABC</Street>
+        <City>Hà Nội</City>
+        <Country>Việt Nam</Country>
+    </Address>
+    <Phone>0123456789</Phone>
+    <TaxID>0101234567</TaxID>
+</Company>

@@ -1,0 +1,18 @@
+from xml.dom import minidom
+
+# Tải file XML
+doc = minidom.parse("sample.xml")
+
+# Lấy và in tên công ty
+company_name = doc.getElementsByTagName("name")[0].firstChild.data
+print("Company Name:", company_name)
+
+# Lấy tất cả các phần tử staff
+staffs = doc.getElementsByTagName("staff")
+
+# Duyệt qua từng phần tử staff và in thông tin chi tiết
+for staff in staffs:
+    staff_id = staff.getAttribute("id")
+    name = staff.getElementsByTagName("name")[0].firstChild.data
+    salary = staff.getElementsByTagName("salary")[0].firstChild.data
+    print(f"Staff ID: {staff_id}, Name: {name}, Salary: {salary}")

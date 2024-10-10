@@ -1,0 +1,23 @@
+<DanhSachSinhVien>
+    <SinhVien>
+        <MaSinhVien>123456</MaSinhVien>
+        <TenSinhVien>Nguyễn Văn A</TenSinhVien>
+        <NamSinh>2000</NamSinh>
+        <Lop>CTK42</Lop>
+        <GioiTinh>Nam</GioiTinh>
+    </SinhVien>
+    <SinhVien>
+        <MaSinhVien>123457</MaSinhVien>
+        <TenSinhVien>Trần Thị B</TenSinhVien>
+        <NamSinh>2001</NamSinh>
+        <Lop>CTK42</Lop>
+        <GioiTinh>Nữ</GioiTinh>
+    </SinhVien>
+    <SinhVien>
+        <MaSinhVien>123458</MaSinhVien>
+        <TenSinhVien>Phạm Văn C</TenSinhVien>
+        <NamSinh>1999</NamSinh>
+        <Lop>CTK41</Lop>
+        <GioiTinh>Nam</GioiTinh>
+    </SinhVien>
+</DanhSachSinhVien>
